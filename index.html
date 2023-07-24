@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-sketch</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="header">
+        <h1 class="animate-charcter">Etch-a-Sketch</h1>
+      </div>
+     
+      <div class="cont">
+     <div class="container-left">
+      <div id="form" class="form">
+        <p>New grid size:</p><input type="text" id="user-number" class="user-number">
+        <p id="copy-input"></p><br>
+        <button id='user-submit' class="user-submit">New</button>        
+      </div>
+      <p id="prompt"></p>
+  
+      <div id="buttons">
+      <form id=button-container>
+        <input type="radio" id="blue-pen" name="pen" value="blue-pen"> <label for="blue-pen">Blue</label><br>
+        <input type="radio" id="red-pen" name="pen" value="red-pen"> <label for="red-pen">Red</label><br>
+        <input type="radio" id="black-pen" name="pen" value="black-pen"> <label for="black-pen">Black</label><br>
+        <input type="radio" id="eraser" name="pen" value="eraser"> <label for="eraser">White</label><br>
+        <input type="radio" id="rainbow" name="pen" value="rainbow"> <label for="Rainbow">RGB</label><br>
+      </form><br>
+      <button id="clear-button">Clear</button>
+      </div>
+     </div>
+    
+     <div class="container-right">
+      <div class="canvas">
+        <div class="container">
+        </div>
+    </div>
+    </div>
+        
+      <div class="container-bottom">
+        <div id="footer">
+          <p>The odin &copy;UMWERE C, Alrights reserved! 2023</p>
+      </div>
+      </div>
+     </div>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
